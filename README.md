@@ -2,7 +2,7 @@
 **Rethinking Benchmarks for Cross-modal Image-text Retrieval**  
 Weijing Chen, Linli Yao and Qin Jin  
 The 46th International ACM SIGIR Conference on Research and Development in Information Retrieval, Taipei, July 2023.  
-[ [arXiv preprint](http://arxiv.org/abs/xxxx.xxxxx) | [Read the paper](http://arxiv.org/abs/xxxx.xxxxx) | [sources data](https://github.com/cwj1412/MSCOCO-Flikcr30K_FG)]
+[ [arXiv preprint](http://arxiv.org/abs/xxxx.xxxxx) | [Read the paper](http://arxiv.org/abs/xxxx.xxxxx) | [data sources](https://github.com/cwj1412/MSCOCO-Flikcr30K_FG)]
 
 ## Background
 With the prevalence of large scale multimodal pretraining models, several state-of-the-art models (e.g. X-VLM) have achieved near perfect performance on widely-used image-text retrieval benchmarks, i.e. MSCOCO-Test-5K and Flickr30K-Test-1K. In this paper, we review the two common benchmarks and observe that they are insufficient to assess the true capability of models on fine-grained cross-modal semantic matching. The reason is that a large amount of images and texts in the benchmarks are coarse-grained.  
