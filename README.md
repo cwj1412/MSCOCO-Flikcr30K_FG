@@ -13,8 +13,21 @@ Based on the observation, we renovate the coarse-grained images and texts in the
 
 ## New benchmarks: MSCOCO-FG & Flickr30K-FG
 ### Images
-We collect similar images for each target image in MSCOCO-Test-5K/Flickr30K-Test-1K from *2017 Unlabeled images* released by [COCO](https://cocodataset.org/). For easy use, we have already assembled all similar image sets and removed duplicate images. According to copyright restrictions, We only provide the list of filenames for images in new image pools. See `Images` for more details.
-If you wish to evaluate your model on our new benchmarks, you can turn to the offical website of [COCO](https://cocodataset.org/) and download the corresponding images.
+We collect similar images for each target image in MSCOCO-Test-5K/Flickr30K-Test-1K from *2017 Unlabeled images* released by [COCO](https://cocodataset.org/). For easy use, we have already assembled all similar image sets and removed duplicate images. According to copyright restrictions, We only provide the list of filenames for images in new image pools.  
+
+See `Images` for more details. If you wish to evaluate your model on our new benchmarks, you can turn to the offical website of [COCO](https://cocodataset.org/) and [Flickr30K](http://shannon.cs.illinois.edu/DenotationGraph/) to download the corresponding images.
 
 ### Text Annotations
-We provide new fine-grained text annotations for images in of MSCOCO-Test-5K/Flickr30K-Test-1K. See `Annotations` for more details.
+We provide new fine-grained text annotations for images in of MSCOCO-Test-5K/Flickr30K-Test-1K.  
+See `Annotations` for more details.
+
+## Citation
+If you find this code useful for your research, please consider citing:
+```
+@inproceedings{chen2023rethinking,
+  title = {Rethinking Benchmarks for Cross-modal Image-text Retrieval},
+  author = {Chen, Weijing and Yao, Linli and Qin, Jin},
+  booktitle = {SIGIR},
+  year = {2023}
+}
+```
