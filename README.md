@@ -11,6 +11,8 @@ With the prevalence of large scale multimodal pretraining models, several state-
 
 Based on the observation, we renovate the coarse-grained images and texts in the old benchmarks and establish the improved benchmarks called ***MSCOCO-FG*** and ***Flickr30K-FG***. Specifically, on the image side, we enlarge the original image pool by adopting more similar images. On the text side, we propose a novel semi-automatic renovation approach to refine coarse-grained sentences into finer-grained ones with little human effort. 
 
+<img src="https://github.com/cwj1412/MSCOCO-Flikcr30K_FG/blob/master/new_text_examples.jpg" width="100px">
+
 ![Examples of the old text and improved text for the same image](https://github.com/cwj1412/MSCOCO-Flikcr30K_FG/blob/master/new_text_examples.jpg) 
 
 ## New benchmarks: MSCOCO-FG & Flickr30K-FG
