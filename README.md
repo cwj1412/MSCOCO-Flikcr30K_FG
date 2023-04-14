@@ -7,10 +7,11 @@ The 46th International ACM SIGIR Conference on Research and Development in Infor
 ## Background
 With the prevalence of large scale multimodal pretraining models, several state-of-the-art models (e.g. X-VLM) have achieved near perfect performance on widely-used image-text retrieval benchmarks, i.e. MSCOCO-Test-5K and Flickr30K-Test-1K. In this paper, we review the two common benchmarks and observe that they are insufficient to assess the true capability of models on fine-grained cross-modal semantic matching. The reason is that a large amount of images and texts in the benchmarks are coarse-grained.  
 
-Based on the observation, we renovate the coarse-grained images and texts in the old benchmarks and establish the improved benchmarks called ***MSCOCO-FG*** and ***Flickr30K-FG***. Specifically, on the image side, we enlarge the original image pool by adopting more similar images. On the text side, we propose a novel semi-automatic renovation approach to refine coarse-grained sentences into finer-grained ones with little human effort. 
-
 ![Illustration of ’coarse-grained images and texts’ issues in current benchmarks](https://github.com/cwj1412/MSCOCO-Flikcr30K_FG/blob/master/current_issues.jpg) 
 
+Based on the observation, we renovate the coarse-grained images and texts in the old benchmarks and establish the improved benchmarks called ***MSCOCO-FG*** and ***Flickr30K-FG***. Specifically, on the image side, we enlarge the original image pool by adopting more similar images. On the text side, we propose a novel semi-automatic renovation approach to refine coarse-grained sentences into finer-grained ones with little human effort. 
+
+![Examples of the old text and improved text for the same image](https://github.com/cwj1412/MSCOCO-Flikcr30K_FG/blob/master/new_text_examples.jpg) 
 
 ## New benchmarks: MSCOCO-FG & Flickr30K-FG
 ### Images
