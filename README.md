@@ -30,7 +30,7 @@ If you find this code useful for your research, please consider citing:
 @inproceedings{chen2023rethinking,
   title = {Rethinking Benchmarks for Cross-modal Image-text Retrieval},
   author = {Chen, Weijing and Yao, Linli and Qin, Jin},
-  booktitle = {SIGIR},
+  booktitle = {Proceedings of the 46th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR '23)},
   year = {2023}
 }
 ```
