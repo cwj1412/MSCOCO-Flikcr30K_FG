@@ -14,7 +14,7 @@ Based on the observation, we renovate the coarse-grained images and texts in the
 <img src="https://github.com/cwj1412/MSCOCO-Flikcr30K_FG/blob/master/new_image_examples.jpg" width="48%" alt="Examples of the old text and improved text for the same image" align="middle"> <img src="https://github.com/cwj1412/MSCOCO-Flikcr30K_FG/blob/master/new_text_examples.jpg" width="48%" alt="Illustration of the original and our new retrieval image pools on MSCOCO and Flickr30K" align="left">
 
 
-## New benchmarks: MSCOCO-FG & Flickr30K-FG
+## Download
 ### Images
 We collect similar images for each target image in MSCOCO-Test-5K/Flickr30K-Test-1K from *2017 Unlabeled images* released by [COCO](https://cocodataset.org/). For easy use, we have already assembled all similar image sets and removed duplicate images. According to copyright restrictions, We only provide the list of filenames for images in new image pools.  
 
